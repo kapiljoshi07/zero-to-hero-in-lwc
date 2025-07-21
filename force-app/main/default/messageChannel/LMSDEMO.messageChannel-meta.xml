@@ -4,11 +4,11 @@
   <isExposed>true</isExposed>
   <description>This Lightning Message Channel sends information from...</description>
   <lightningMessageFields>
-    <fieldName>fieldName</fieldName>
+    <fieldName>val</fieldName>
     <description>Message To Send</description>
   </lightningMessageFields>
   <lightningMessageFields>
-    <fieldName>fieldName</fieldName>
+    <fieldName>source</fieldName>
     <description>My source?</description>
   </lightningMessageFields>
 </LightningMessageChannel>
