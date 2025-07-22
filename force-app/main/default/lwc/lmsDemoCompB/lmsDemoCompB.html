@@ -1,0 +1,20 @@
+<template>
+  <lightning-card icon-name="custom:custom14" variant="base">
+    <div slot="title">
+      LWCDemo Component B
+    </div>
+    <div slot="actions">
+
+    </div>
+    <div slot="footer">
+      Received Message: {receivedMsg},
+      Received From: {receivedFrom}
+    </div>
+    <div class="slds-var-p-around_medium">
+      <!-- Card Body  -->
+      <lightning-input type="text" label="Enter message to publish" onkeyup={handleChange}
+        value={message}></lightning-input>
+      <lightning-button variant="base" label="Publish Message" onclick={handleClick}></lightning-button>
+    </div>
+  </lightning-card>
+</template>
